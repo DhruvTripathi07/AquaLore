@@ -1,18 +1,25 @@
 <!DOCTYPE html>
+<!-- Root HTML document for AquaLore Ocean Literacy site -->
 <html lang="en">
 <head>
+    <!-- Required meta tags for responsive design and character encoding -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aqualore – Ocean Literacy</title>
+    <!-- Google Fonts for custom typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Main stylesheet for site styles -->
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+    <!-- Header section: site navigation and hero banner -->
     <header class="hero" id="top">
         <nav class="nav">
+            <!-- Brand logo/title -->
             <div class="brand">Walrus</div>
+            <!-- Navigation links -->
             <div class="nav-actions">
                 <a href="#about" class="link">Leaderboard</a>
                 <a href="#guidelines" class="link">Journey</a>
@@ -21,14 +28,18 @@
         </nav>
 
         <div class="hero-inner container">
+            <!-- Main site title -->
             <h1 class="title">
                 <span>Aqua</span><span>lore</span>
             </h1>
+            <!-- Subtitle/description -->
             <p class="subtitle">Dive into the ultimate underwater adventure and explore the mysteries of the deep blue sea</p>
+            <!-- Call-to-action buttons for login/signup -->
             <div class="cta">
                 <a class="btn btn-ghost btn-login" href="#login">Login</a>
                 <a class="btn btn-primary btn-signup" href="#signup">Sign Up</a>
             </div>
+            <!-- Scroll indicator to guide users to next section -->
             <div class="scroll-indicator">
                 <a class="scroll-link" href="#about" aria-label="Scroll down to explore">
                     <svg class="chevron" width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
@@ -37,10 +48,11 @@
                 </a>
             </div>
         </div>
-        
 
+        <!-- Decorative elements: submarine and bubbles -->
         <div class="hero-ornaments" aria-hidden="true">
             <div class="submarine"><i class="tail"></i><i class="fin"></i><i class="shadow"></i></div>
+            <!-- Animated bubbles for ocean effect -->
             <div class="bubble b1"></div>
             <div class="bubble b2"></div>
             <div class="bubble b3"></div>
@@ -54,23 +66,29 @@
         </div>
     </header>
 
+    <!-- Main content of the site -->
     <main>
+        <!-- About section: site features and introduction -->
         <section id="about" class="section features reveal">
             <div class="container">
+                <!-- Section title and description -->
                 <h2 class="section-title">Discover the Deep Blue<br/>Save Our Oceans</h2>
                 <p class="section-desc">Embark on an immersive underwater adventure through time. Explore marine ecosystems, discover ancient sea creatures, and learn how to protect our planet's most precious resource.</p>
 
                 <div class="cards three">
+                    <!-- Card: Ocean Exploration -->
                     <article class="card">
                         <div class="icon circle">≈</div>
                         <h3>Ocean Exploration</h3>
                         <p>Dive deep into mysterious underwater worlds and discover the secrets hidden beneath the waves</p>
                     </article>
+                    <!-- Card: Time Travel -->
                     <article class="card">
                         <div class="icon circle">🕒</div>
                         <h3>Time Travel</h3>
                         <p>Journey through millions of years to witness the evolution of marine life and ocean ecosystems</p>
                     </article>
+                    <!-- Card: Conservation -->
                     <article class="card">
                         <div class="icon circle">🌐</div>
                         <h3>Conservation</h3>
@@ -80,31 +98,38 @@
             </div>
         </section>
 
+        <!-- Eras section: time travel through ocean history -->
         <section id="eras" class="section eras container reveal">
+            <!-- Section title and description -->
             <h2 class="section-title">Journey Through Time</h2>
             <p class="section-desc">Embark on an epic adventure across four different time periods, each with unique challenges, marine life, and conservation lessons waiting to be discovered.</p>
             <div class="cards four">
+                <!-- Card: Modern Oceans (current era) -->
                 <article class="card soft blue">
                     <div class="icon circle">🫧</div>
                     <h3>Modern Oceans (2024)</h3>
                     <p>Explore today's ocean challenges including climate change, pollution, and marine conservation efforts.</p>
                 </article>
+                <!-- Card: Ancient Seas (prehistoric era) -->
                 <article class="card soft green">
                     <div class="icon circle">🧬</div>
                     <h3>Ancient Seas (540-252 MYA)</h3>
                     <p>Dive into primordial oceans teeming with trilobites, early fish, and marine invertebrates.</p>
                 </article>
+                <!-- Card: Age of Marine Reptiles (Mesozoic era) -->
                 <article class="card soft peach">
                     <div class="icon circle">🦎</div>
                     <h3>Age of Marine Reptiles (252-66 MYA)</h3>
                     <p>Encounter massive marine reptiles like plesiosaurs and ichthyosaurs in prehistoric seas.</p>
                 </article>
+                <!-- Card: Tomorrow's Oceans (future era) -->
                 <article class="card soft purple">
                     <div class="icon circle">🚀</div>
                     <h3>Tomorrow's Oceans</h3>
                     <p>Explore potential futures for our oceans and see how innovation might shape marine life.</p>
                 </article>
             </div>
+            <!-- Callout: prompt to start adventure -->
             <div class="callout">
                 <h3>Ready to Dive In?</h3>
                 <p>Choose your starting era and begin your underwater conservation adventure. Each time period offers unique challenges and discoveries waiting for you.</p>
@@ -112,36 +137,44 @@
             </div>
         </section>
 
+        <!-- Guidelines section: community rules and values -->
         <section id="guidelines" class="section guidelines container reveal">
+            <!-- Section title and description -->
             <h2 class="section-title">Community Guidelines</h2>
             <p class="section-desc">Join our community of ocean explorers and marine conservationists! Follow these guidelines to ensure everyone has an amazing and safe learning adventure.</p>
 
             <div class="cards three">
+                <!-- Card: Fair Play -->
                 <article class="card soft blue">
                     <div class="icon circle">🎮</div>
                     <h3>Fair Play</h3>
                     <p>Play honestly and help fellow ocean explorers learn. No cheating or exploiting game mechanics.</p>
                 </article>
+                <!-- Card: Respectful Community -->
                 <article class="card soft green">
                     <div class="icon circle">🤝</div>
                     <h3>Respectful Community</h3>
                     <p>Treat all players with kindness and respect. We're all learning together on this underwater journey!</p>
                 </article>
+                <!-- Card: Safe Environment -->
                 <article class="card soft teal">
                     <div class="icon circle">🛡️</div>
                     <h3>Safe Environment</h3>
                     <p>Report inappropriate behavior immediately. Keep our ocean community safe and welcoming.</p>
                 </article>
+                <!-- Card: Educational Focus -->
                 <article class="card soft indigo">
                     <div class="icon circle">📘</div>
                     <h3>Educational Focus</h3>
                     <p>Embrace learning opportunities and grow your ocean knowledge with every dive.</p>
                 </article>
+                <!-- Card: Conservation Mindset -->
                 <article class="card soft mint">
                     <div class="icon circle">💚</div>
                     <h3>Conservation Mindset</h3>
                     <p>Apply what you learn to real life. Be an ocean conservation champion and inspire others.</p>
                 </article>
+                <!-- Card: Celebrate Progress -->
                 <article class="card soft gold">
                     <div class="icon circle">🏆</div>
                     <h3>Celebrate Progress</h3>
@@ -149,6 +182,7 @@
                 </article>
             </div>
 
+            <!-- Callout: agreement to guidelines -->
             <div class="callout alt">
                 <h3>Ready to Join OceanQuest?</h3>
                 <p>By playing OceanQuest, you agree to follow these community guidelines and help create a positive, educational environment for all ocean explorers and marine conservation enthusiasts.</p>
@@ -157,13 +191,17 @@
         </section>
     </main>
 
+    <!-- Footer section: site info and copyright -->
     <footer class="footer">
         <div class="container footer-inner">
+            <!-- Site logo -->
             <div class="logo">Aqualore</div>
+            <!-- Copyright info -->
             <div class="meta">© 2024 Walrus</div>
         </div>
     </footer>
 
+    <!-- Main JavaScript file for interactivity -->
     <script src="script.js"></script>
 </body>
 </html>
